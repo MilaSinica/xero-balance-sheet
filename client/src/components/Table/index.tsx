@@ -1,0 +1,1 @@
+export { TableView as default } from './Table.view';

@@ -1,0 +1,1 @@
+export const parseDateUTCString = (dateUTC: string): string => new Date(parseInt(dateUTC.replace('/Date(', '').replace(')/', ''), 10)).toLocaleString();
