@@ -17,8 +17,7 @@ The goal of the project is to build a simple one page application to display the
 To get started with this project, start by cloning repository:
 
 <pre>
-```git clone https://github.com/MilaSinica/xero-balance-sheet.git
-```
+git clone https://github.com/MilaSinica/xero-balance-sheet.git
 </pre>
 
 ## Backend
@@ -28,22 +27,19 @@ Running the Backend Locally
 - Navigate to the backend directory:
 
 <pre>
-```cd server
-```
+cd server
 </pre>
 
 - Install backend dependencies:
 
 <pre>
-```npm install
-```
+npm install
 </pre>
 
 - Start the backend server:
 
 <pre>
-```npm start
-```
+npm start
 </pre>
 
 The backend server should now be running on http://localhost:3001.
@@ -53,22 +49,19 @@ The backend server should now be running on http://localhost:3001.
 - Pull the Docker image:
 
 <pre>
-```docker pull jaypeng2015/show-me-the-money
-```
+docker pull jaypeng2015/show-me-the-money
 </pre>
 
 - Build the Docker image:
 
 <pre>
-```docker build -t jaypeng2015/show-me-the-money
-```
+docker build -t jaypeng2015/show-me-the-money
 </pre>
 
 - Run the Docker container:
 
 <pre>
-```docker run -p 3000:3000 jaypeng2015/show-me-the-money
-```
+docker run -p 3000:3000 jaypeng2015/show-me-the-money
 </pre>
 
 The backend server should now be running inside a Docker container accessible at http://localhost:3000.
@@ -80,22 +73,19 @@ Running the Frontend Locally
 - Navigate to the frontend directory:
 
 <pre>
-```cd client
-```
+cd client
 </pre>
 
 - Install frontend dependencies:
 
 <pre>
-```npm install
-```
+npm install
 </pre>
 
 - Start the frontend development server:
 
 <pre>
-```npm start
-```
+npm start
 </pre>
 
 The frontend should now be running on http://localhost:3002.
